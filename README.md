@@ -15,6 +15,7 @@ Using this program, you can add a hotel and rent a room from the hotel. At the s
 ![image](https://github.com/cengarm/HotelReservation/assets/126611512/81b52f28-4ec8-4b7d-920e-2cc9655c2da8)
 
 ## DEPENDENCIES :
+
  <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
