@@ -17,6 +17,7 @@ Using this program, you can add a hotel and rent a room from the hotel. At the s
 ## DEPENDENCIES :
 
  <dependencies>
+ 
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -39,7 +40,6 @@ Using this program, you can add a hotel and rent a room from the hotel. At the s
             <artifactId>spring-boot-devtools</artifactId>
             <scope>runtime</scope>
             <optional>true</optional>
-
         </dependency>
         <dependency>
             <groupId>org.postgresql</groupId>
@@ -93,6 +93,7 @@ Using this program, you can add a hotel and rent a room from the hotel. At the s
             <version>6.1.0</version>
         </dependency>
     </dependencies>
+    
    ## RESOURCES :
 spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.PostgreSQLDialect
 spring.jpa.hibernate.ddl-auto=update
