@@ -96,11 +96,19 @@ Using this program, you can add a hotel and rent a room from the hotel. At the s
     
    ## RESOURCES :
 spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.PostgreSQLDialect
+
 spring.jpa.hibernate.ddl-auto=update
+
 spring.jpa.hibernate.show-sql=true
+
 spring.datasource.url=jdbc:postgresql://localhost:5432/HotelReservation
+
 spring.datasource.username=postgres
+
 spring.datasource.password=****
+
 spring.jpa.properties.javax.persistence.validation.mode = none
+
 spring.mvc.pathmatch.matching-strategy=ant_path_matcher
+
 server.forward-headers-strategy: framework
